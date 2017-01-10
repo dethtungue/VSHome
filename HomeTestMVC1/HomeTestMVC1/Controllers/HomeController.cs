@@ -26,5 +26,11 @@ namespace HomeTestMVC1.Controllers
 
             return View();
         }
+
+        public ActionResult WhoWeAre()
+        {
+            ViewBag.Message = "Your WhoWeAre Site";
+            return View();
+        }
     }
 }
